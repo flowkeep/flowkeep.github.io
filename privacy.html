@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowKeep — Privacy Policy</title>
+    <meta name="description" content="FlowKeep privacy policy — your data stays on your device and in your iCloud account.">
+    <meta name="theme-color" content="#1C1A17">
+    <style>
+        :root {
+            --bg: #1C1A17;
+            --surface: #24211D;
+            --primary: #FFFFFF;
+            --secondary: rgba(255, 255, 255, 0.55);
+            --separator: rgba(255, 255, 255, 0.08);
+            --accent: #D4893A;
+            --terracotta: #D59367;
+            --periwinkle: #A5A8C0;
+            --sage: #789E96;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--primary);
+            line-height: 1.6;
+            padding: 32px 20px 48px;
+        }
+
+        .wrap {
+            max-width: 680px;
+            margin: 0 auto;
+            animation: fadeIn 0.4s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .lockup {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .logomark {
+            position: relative;
+            width: 40px;
+            height: 22px;
+        }
+
+        .logomark span {
+            position: absolute;
+            top: 0;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+        }
+
+        .logomark .c1 { left: 0; background: var(--terracotta); }
+        .logomark .c2 { left: 9px; background: var(--periwinkle); }
+        .logomark .c3 { left: 18px; background: var(--sage); }
+
+        .wordmark { font-size: 20px; font-weight: 600; letter-spacing: -0.01em; }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 24px 0 8px;
+            letter-spacing: -0.02em;
+        }
+
+        .meta {
+            font-size: 14px;
+            color: var(--secondary);
+            margin-bottom: 28px;
+        }
+
+        .summary {
+            background: var(--surface);
+            border: 1px solid var(--separator);
+            border-radius: 16px;
+            padding: 20px 22px;
+            margin-bottom: 32px;
+            font-size: 16px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 32px 0 12px;
+            color: var(--primary);
+        }
+
+        p, li { font-size: 16px; color: var(--secondary); margin-bottom: 12px; }
+        p strong, li strong { color: var(--primary); }
+
+        ul { margin: 0 0 16px 1.25rem; }
+        li { margin-bottom: 8px; }
+
+        a { color: var(--accent); }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0 20px;
+            font-size: 15px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--separator);
+            color: var(--secondary);
+        }
+
+        th { color: var(--primary); font-weight: 600; }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--separator);
+            font-size: 14px;
+            color: var(--secondary);
+        }
+
+        .footer a { color: var(--accent); text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <a class="lockup" href="/">
+            <span class="logomark"><span class="c1"></span><span class="c2"></span><span class="c3"></span></span>
+            <span class="wordmark">FlowKeep</span>
+        </a>
+
+        <h1>Privacy Policy</h1>
+        <p class="meta">Effective February 12, 2026 · Last updated February 12, 2026 · Developer: Legend Made (com.legend-made.FlowKeep)</p>
+
+        <div class="summary">
+            <strong>Summary:</strong> FlowKeep does not collect, transmit, or sell your personal data. Your information stays on your device and, if you choose, in your own iCloud account. There are no third-party analytics, no tracking SDKs, and no user accounts to create.
+        </div>
+
+        <h2>1. Information We Collect</h2>
+        <p><strong>We do not collect any personal information.</strong> FlowKeep does not ask for your name, email address, phone number, location, or any other personally identifiable information. There is no account creation or login process.</p>
+
+        <h2>2. Data Stored on Your Device</h2>
+        <p>FlowKeep stores the following data locally on your device to provide app functionality:</p>
+        <table>
+            <thead><tr><th>Data</th><th>Purpose</th></tr></thead>
+            <tbody>
+                <tr><td>Project titles, descriptions, icons, and colors</td><td>Displaying and organizing your projects</td></tr>
+                <tr><td>Project notes and links</td><td>Context preservation</td></tr>
+                <tr><td>Touch events (timestamps)</td><td>Freshness, streaks, and queue priority</td></tr>
+                <tr><td>User preferences</td><td>Personalizing your experience</td></tr>
+                <tr><td>Notification settings</td><td>Delivering reminders you've opted into</td></tr>
+                <tr><td>Project templates</td><td>Built-in and user-created templates</td></tr>
+                <tr><td>Project dependencies</td><td>Prerequisites between projects</td></tr>
+            </tbody>
+        </table>
+        <p>All of this data is stored in a local database on your device using Apple's Core Data framework within the app's sandboxed container.</p>
+
+        <h2>3. iCloud Sync</h2>
+        <p>If you are signed into iCloud, FlowKeep can sync your data across your Apple devices using Apple's CloudKit service. Sync is handled by Apple's infrastructure; data is encrypted in transit and at rest. FlowKeep does not operate any servers — your data goes from your device to your iCloud account only.</p>
+        <p>See <a href="https://support.apple.com/en-us/HT202303">Apple's iCloud Privacy Overview</a>.</p>
+
+        <h2>4. Notifications</h2>
+        <p>FlowKeep may request permission to send local notifications (freshness reminders, queue alerts). Notifications are optional and no notification data is sent to any external service.</p>
+
+        <h2>5. Widgets &amp; Siri Shortcuts</h2>
+        <p>Home Screen widgets, Lock Screen widgets, and Siri Shortcuts read project data from a shared on-device App Group container. No data is transmitted externally.</p>
+
+        <h2>6. Template Sharing</h2>
+        <p>When you share a project template via QR code or link:</p>
+        <ul>
+            <li>Template data (title, description, structure) is encoded into the QR code or URL.</li>
+            <li>No data is uploaded to FlowKeep servers (we don't operate any).</li>
+            <li>Shared template links may be hosted on <a href="https://flowkeep.github.io/">flowkeep.github.io</a> as static GitHub Pages content. These pages do not collect user data or analytics.</li>
+        </ul>
+
+        <h2>7. Accountability Buddy (Not Yet Fully Implemented)</h2>
+        <p>The Accountability Buddy UI exists, but <strong>no data is exchanged between users</strong> today. Invite codes are generated locally and do not connect to any server. When fully implemented, only project titles would be shared with a connected buddy; notes and other details would remain private. This policy will be updated before the feature goes live.</p>
+
+        <h2>8. AI Features (Disabled)</h2>
+        <p>Optional AI features are <strong>currently disabled</strong>. No data is sent to Anthropic, OpenAI, Google, or any other AI provider. This policy will be updated before any AI features are enabled.</p>
+
+        <h2>9. Analytics &amp; Tracking</h2>
+        <p><strong>FlowKeep does not use any third-party analytics or tracking services.</strong> No advertising identifiers are accessed. A minimal local event log (last 100 events) is kept on-device for diagnostics only — it is never transmitted.</p>
+
+        <h2>10. Third-Party SDKs</h2>
+        <p>FlowKeep uses zero third-party SDKs. The app is built with native Apple frameworks: SwiftUI, Core Data, CloudKit, WidgetKit, UserNotifications, App Intents, Foundation, and OSLog.</p>
+
+        <h2>11. Data Retention &amp; Deletion</h2>
+        <p>Delete the FlowKeep app to remove local data. Manage iCloud storage via iOS Settings if sync was enabled. FlowKeep does not retain data on external servers.</p>
+
+        <h2>12. Children's Privacy</h2>
+        <p>FlowKeep does not knowingly collect information from children under 13 and is compliant with COPPA.</p>
+
+        <h2>13. App Store Privacy Label</h2>
+        <p>Based on current implementation: Data Not Collected; Data Not Linked to You; Data Not Used to Track You.</p>
+
+        <h2>14. Apple Privacy Manifest</h2>
+        <p>FlowKeep includes <code>PrivacyInfo.xcprivacy</code> declaring required API usage (UserDefaults, file timestamps, system boot time, disk space) for app functionality only. <code>NSPrivacyTracking</code> is <code>false</code>.</p>
+
+        <h2>15. Changes to This Policy</h2>
+        <p>We will update this page and the effective date when practices change, especially before Accountability Buddy or AI features launch.</p>
+
+        <h2>16. Contact</h2>
+        <p>Questions about this policy or FlowKeep's data practices: <a href="mailto:support@flowkeep.app">support@flowkeep.app</a></p>
+
+        <p class="footer">
+            <a href="/">← Back to FlowKeep share page</a>
+        </p>
+    </div>
+</body>
+</html>
