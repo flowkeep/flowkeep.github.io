@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["H3G979G4CV.com.legend-made.FlowKeep"],
+        "components": [
+          { "/": "/" },
+          { "/": "/*" }
+        ]
+      }
+    ]
+  }
+}
