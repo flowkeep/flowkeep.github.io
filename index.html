@@ -248,6 +248,13 @@
     <script>
         const APP_STORE_URL = 'https://apps.apple.com/search?term=FlowKeep';
         const urlParams = new URLSearchParams(window.location.search);
+
+        // Buddy-invite links (https://flowkeep.github.io/?invite=<code>) share the "/" path
+        // with rhythm shares. Hand those off to the dedicated invite page.
+        if (urlParams.has('invite')) {
+            window.location.replace('invite.html' + window.location.search);
+        }
+
         const templateDataEncoded = urlParams.get('data');
 
         let templateData = null;
